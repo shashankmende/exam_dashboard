@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.result_bg_container{
+        /* background-color: #aba8a86e; */
+        padding: 20px;
+        /* text-align: center; */
+        height: 100vh;
+        
+}
+
+
+.content {
+    width: 80%;
+    /* background-color: #cecaca; */
+    margin: auto;
+    /* border: 1px solid red; */
+    color: black;
+    margin-top: 50px;
+    
+}
+
+
+
+.live_result_heading{
+    
+    
+    /* box-shadow: 1px 1px 3px black; */
+    
+    
+}
+
+.cards_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red    ; */
+    padding: 30px 0px;
+    margin-top: 30px;
+
+}
+
+.student_data_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    box-shadow: 1px 1px 4px 0.1px rgb(42, 64, 45);
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 25px;
+    align-items: space-between;
+    background-color: #ffffff;
+    height: 270px;
+}
+
+.student_data_container p{
+    
+    
+}
+
+.field_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    font-size: 20px;
+}
+
+.name_para {
+    width: 100px;
+    text-align: left;
+    /* border: 1px solid red; */
+    
+
+}
+
+.value_para {
+    color: rgb(8, 29, 131);
+    width: 100px;
+
+}
+
+.result_data_container{
+    
+    /* border: 1px solid red; */
+    /* padding: 10px; */
+    width: 600px;
+    box-shadow: 1px 2px 4px 0.1px rgb(42, 64, 45);
+    border-radius: 10px;
+    height: 270px;
+    
+    
+
+}
+
+.performance_heading {
+    padding: 15px 15px 2px 35px;
+    color: rgb(8, 131, 131);
+    /* border-bottom: 2px solid gray; */
+    /* background-color: lightgray; */
+    
+}
+
+.result_field_container {
+    width: 300px;
+    
+    padding-left: 35px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 20px;
+}
+
+.result_field {
+    width: 150px;
+    text-align: left;
+}
+
+.result_value {
+    width: 150px;
+    text-align: left;
+}
